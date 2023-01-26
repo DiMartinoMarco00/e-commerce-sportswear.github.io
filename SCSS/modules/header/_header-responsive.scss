@@ -1,0 +1,36 @@
+@media only screen and (max-width: 920px) 
+{
+    nav 
+    {
+        ul 
+        {
+            position: absolute;
+            top: 70px;
+            left: 0;
+            background-color: #333;
+            width: 100%;
+            overflow: hidden;
+            transition: max-height 0.5s;
+            z-index: 10;
+
+            li 
+            {
+                display: block;
+                margin-right: 50px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+
+                a 
+                {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .menu-icon
+    {
+        display: block;
+        cursor: pointer;
+    }
+}

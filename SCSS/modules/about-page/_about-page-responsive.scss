@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1075px)
+{
+    .small-container.about-page
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .row-about 
+    {
+        width: 100%;
+        margin: 20% auto 60%;
+    }
+
+    .col-4-about
+    {
+        flex-basis: 50%;
+        font-size: 10px;
+
+        p 
+        {
+            font-size: 12px;
+        }
+
+        h4 
+        {
+            font-size: 14px;
+        }
+
+        img 
+        {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .social-link .fab 
+    {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .row-about .col-4-about:nth-child(1)
+    {
+        order: 1;
+    }
+
+    .row-about .col-4-about:nth-child(2)
+    {
+       order: 2;
+    }
+
+    .row-about .col-4-about:nth-child(3)
+    {
+       order: 5;
+    }
+
+    .row-about .col-4-about:nth-child(4)
+    {
+       order: 6;
+    }
+
+    .row-about .col-4-about:nth-child(5)
+    {
+       order: 3;
+    }
+
+    .row-about .col-4-about:nth-child(6)
+    {
+       order: 4;
+    }
+
+    .row-about .col-4-about:nth-child(7)
+    {
+       order: 7;
+    }
+
+    .row-about .col-4-about:nth-child(8)
+    {
+        order: 8;
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 480px) 
+{
+    .small-container.about-page
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) 
+{
+    .small-container.about-page
+    {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 920px) and (min-width: 768px) 
+{
+    .small-container.about-page
+    {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .col-4-about
+    {
+        flex-basis: 50%;
+        font-size: 15px;
+
+        p 
+        {
+            font-size: 16px;
+        }
+
+        h4 
+        {
+            font-size: 18px;
+        }
+    }
+
+    .social-link .fab 
+    {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1075px) and (min-width: 921px) 
+{
+    .small-container.about-page
+    {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}

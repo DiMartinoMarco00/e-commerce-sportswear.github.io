@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px)
+{
+    .contact-conversation h1 
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 920px)
+{
+    .contact-box
+    {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 920px) 
+{
+    .input-row
+    {
+        display: block;
+
+        input 
+        {
+            margin-bottom: 25px;
+        }
+    }
+}

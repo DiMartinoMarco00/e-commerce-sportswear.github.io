@@ -1,0 +1,5 @@
+@mixin col ($flex-basis, $min-width)
+{
+    flex-basis: $flex-basis;
+    min-width: $min-width;
+}

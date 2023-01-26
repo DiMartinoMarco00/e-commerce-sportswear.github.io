@@ -1,0 +1,62 @@
+.categories
+{
+    margin: 70px 0;
+}
+
+.col-3 img 
+{
+    width: 100%;
+}
+
+.col-4
+{
+    img 
+    {
+        width: 100%;
+    }
+
+   p 
+   {
+       font-size: 14px;
+   }
+
+   transition: transform 0.5s;
+}
+
+.col-4:hover 
+{
+    transform: translateY(-20px);
+}
+
+.title
+{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after
+{
+    content: '';
+    background-color: $color-orange;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 
+{
+    color: #555;
+    font-weight: normal;
+}
+
+.rating .fas, .rating .far
+{
+    color: $color-orange;
+}

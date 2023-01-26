@@ -1,0 +1,19 @@
+.brands 
+{
+    margin: 100px auto;
+}
+
+.col-5 
+{
+    img 
+    {
+        width: 100%;
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+
+    img:hover 
+    {
+        filter: grayscale(0%);
+    }
+}

@@ -1,0 +1,45 @@
+.testimonials
+{
+    padding-top: 100px;
+
+    .col-3 
+    {
+        text-align: center;
+        padding: 40px 20px;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+        cursor: pointer;
+        transition: transform 0.5s;
+
+        img 
+        {
+            width: 50px;
+            margin-top: 20px;
+            border-radius: 50%;
+        }
+
+        p 
+        {
+            font-size: 13px;
+            margin: 12px 0;
+            color: #777;
+        }
+
+        h3 
+        {
+            font-weight: 600;
+            color: #555;
+            font-size: 16px;
+        }
+    }
+
+    .col-3:hover
+    {
+        transform: translateY(-20px);
+    }
+
+    .fas.fa-quote-left 
+    {
+        font-size: 34px;
+        color: $color-orange;
+    }
+}
